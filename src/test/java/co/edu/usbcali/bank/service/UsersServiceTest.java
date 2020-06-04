@@ -90,7 +90,7 @@ public class UsersServiceTest {
 		users.setName("Sindy Tatiana Moncada Pisso");
 		
 		try {
-			usersService.save(users);
+			usersService.update(users);
 		} catch (Exception e) {
 			assertNull(e, e.getMessage());
 		}

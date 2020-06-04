@@ -96,7 +96,7 @@ public class ClientServiceTest {
 		client.setAdress("Calle 54 # 4 D 47");
 
 		try {
-			clientService.save(client);
+			clientService.update(client);
 		} catch (Exception e) {
 			assertNull(e, e.getMessage());
 		}
